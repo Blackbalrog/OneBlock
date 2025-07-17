@@ -1,0 +1,18 @@
+name: OneBlock
+version: '1.0-SNAPSHOT'
+main: fr.blackbalrog.oneblock.OneBlock
+api-version: '1.21'
+authors: [Blackbalrog]
+
+commands:
+  oneblock:
+    aliases: ob
+    description: commande oneblock
+
+permissions:
+  oneblock.command.admin.setspawn:
+    description: permission pour definir le spawn
+  oneblock.command.admin.access:
+    description: permission pour acceder a une ile
+  oneblock.command.admin.level.*:
+    description: permission pour modifier le niveau de l ile d un joueur
